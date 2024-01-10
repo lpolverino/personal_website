@@ -4,7 +4,7 @@ import Home from '../Home/Home'
 
 const Main = () => {
   return (
-    <div>
+    <div style={{height:"100%"}}>
       <Home></Home>
     </div>
   )

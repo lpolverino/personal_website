@@ -18,9 +18,9 @@ const HomeInfo = () => {
       }, [])
 
   return (
-    <div>
+    <div className={styles.info}>
         <h1>Lorenzo Polverino</h1>
-        <h2 >I'm <span className={styles.presentation}>{names[index]}</span></h2>
+        <h2>I'm <span className={styles.presentation}>{names[index]}</span></h2>
     </div>
   )
 }

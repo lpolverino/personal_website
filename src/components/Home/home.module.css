@@ -1,0 +1,25 @@
+.home{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.mouse{
+    justify-self: center;
+    align-self: center;
+}
+
+.rect{
+    animation: slide_up 1.1s 0.2s ease-in infinite alternate-reverse;
+}
+
+@keyframes slide_up 
+{
+    0%{
+        transform: translateY(0px);
+    }
+
+
+    100%{
+        transform: translateY(15px);
+    }
+}
