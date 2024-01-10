@@ -1,8 +1,8 @@
 .link, .light_link{
     color:  white;
+    transition: opacity ease-in 0.2s;
 }
 
 .light_link{
-    
     opacity: 0.8;
 }

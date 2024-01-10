@@ -6,6 +6,7 @@
 
 .logo_title{
     color: var(--light-tourquise,#97DFFC);
+    padding-left: 30px;
 }
 
 .logo_span{

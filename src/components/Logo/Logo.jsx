@@ -6,7 +6,7 @@ const Logo = () => {
   return (
     <div className={styles.div}>
       <h1 className={styles.logo_title}>
-         Polverino Lorenzo<span className={styles.logo_span}>_</span>
+         lpolverino<span className={styles.logo_span}>_</span>
       </h1>
     </div>
   )
