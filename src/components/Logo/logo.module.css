@@ -1,0 +1,25 @@
+.div:focus,
+.div:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.logo_title{
+    color: var(--light-tourquise,#97DFFC);
+}
+
+.logo_span{
+    padding: 1px;
+    animation: toggle 1s ease-in 0.1s infinite alternate-reverse ;
+}
+
+@keyframes toggle {
+    
+    0%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}

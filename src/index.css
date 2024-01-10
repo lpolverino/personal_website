@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --background-color: #2C0735;
+    --dark-voilet:#4E148C;
+    --light-violet:#613DC1;
+    --dark-turquiose:#858AE3;
+    --light-tourquise:#97DFFC;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+body, html {
+    height: 100%;
+    background-color: var(--background-color);
+}
+
+a {
+    font-weight: 500;
+    color: #000000;
+    text-decoration: inherit;
+  }
