@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./skill-section.module.css"
+import { FaReact } from "react-icons/fa";
 
 const SkillSection = ({skill}) => {
   return (

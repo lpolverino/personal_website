@@ -1,6 +1,53 @@
+.skill_conteiner{
+    text-align: center;
+}
+
+.skill_conteiner h3{
+    font-size: 2rem;
+}
+
 .skills{
     margin: 10px;
     border: 2px solid white;
     display: flex;
     flex-direction: column;
+}
+
+.skill{
+    padding: 10px 10px 10px 10px;
+    padding-bottom: 0;
+    position: relative;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.bar{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+    top: 24px;
+    left: 40%;
+    width: 20%;
+    border-top: 8px solid #8c8b8b;
+}
+
+.sep_bar{
+    margin-top: 6px;
+}
+.skill ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    justify-content: center;
+    gap: 6px;
+}
+
+.skill li {
+    text-decoration: none;
+    list-style: none;
+    max-width: 32px;
+    max-height: 32px;
+}
+.tecnologies{
+    padding-bottom: 6px;
 }
