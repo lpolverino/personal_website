@@ -5,13 +5,12 @@ const particlesConfig ={
     background: {
       color: {
         value: "#2C0735",
-        
       },
       image: "",
       position: "",
       repeat: "",
       size: "",
-      opacity: 0
+      opacity: 0,
     },
     backgroundMask: {
       composite: "destination-out",
