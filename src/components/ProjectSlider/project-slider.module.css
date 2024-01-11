@@ -1,0 +1,28 @@
+.slider{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 80px 10%;
+    padding: 10px;
+    z-index: 1;
+}
+
+.slider{
+    color: white;
+}
+.filters{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.filters a{
+    cursor: pointer;
+
+}
+.link{
+    color: white;
+}
+
+
+.selected, .link:hover, .link:focus{
+    color:#97DFFC;
+}

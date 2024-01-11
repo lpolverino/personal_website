@@ -1,0 +1,44 @@
+.card{
+    background-color: rgb(32, 32, 32);
+    z-index: 1;
+    transition: transform 0.2s ease-in;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.title{
+    font-size: 22px;
+}
+
+.link, .link_apear{
+    text-align: center;
+    width: 100%;
+}
+
+.link_apear{
+    transition: all 0.5s ease-in; 
+    opacity: 1;
+}
+
+.link{
+    opacity: 0;
+}
+
+.card a{
+    color:#97DFFC;
+    margin-right: 8px;
+}
+
+
+.card img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    z-index: 1;
+}
+
+.card:hover{
+    object-fit: contain;
+    transform: scale(1.05);
+}
