@@ -5,7 +5,6 @@ import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
 import style from "./main.module.css"
 
-
 const Main = () => {
   return (
     <div className={style.main}>

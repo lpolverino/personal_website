@@ -3,10 +3,13 @@ import styles from "./contact.module.css"
 import { SiGmail } from "react-icons/si";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
+import { Fade } from "react-awesome-reveal";
+
 
 const Contact = () => {
   const methods = []
   return (
+    <Fade direction='up' triggerOnce={true}>
     <section id="Contact">
         <div>
           <h2 className={styles.title}>Contact</h2>
@@ -40,6 +43,7 @@ const Contact = () => {
           </div>
         </div>
     </section>
+    </Fade>
   )
 }
 
