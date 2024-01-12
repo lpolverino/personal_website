@@ -4,3 +4,7 @@
     align-self: flex-end;
     justify-content: space-around;
 }
+
+.scrolled{
+    align-self: center;
+}

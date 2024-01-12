@@ -12,7 +12,7 @@ const NavigationLInk = ({to, onFocus, isFocused}) => {
      link_Style = isFocused === to ? styles.link : styles.light_link
   }
   return (
-    <a href="#" className={link_Style} onMouseEnter={() => onFocus(to)} onMouseLeave={()=>onFocus("")}>// {to}</a>
+    <a href={"#"+to} className={link_Style} onMouseEnter={() => onFocus(to)} onMouseLeave={()=>onFocus("")}>// {to}</a>
   )
 }
 

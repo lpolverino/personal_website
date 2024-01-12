@@ -5,4 +5,5 @@
     align-items: center;
     padding: 10px;
     gap: 18px;
+    min-height: 480px;
 }
