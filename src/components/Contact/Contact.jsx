@@ -37,7 +37,7 @@ const Contact = () => {
               <div className={styles.progress_bar}>
                 <div className={`${styles.circle} ${styles.border}`}>
                 </div>
-                <div className={styles.cv_button}><a href="" download="newname">CV</a></div>
+                <div className={styles.cv_button}><a href="CV_Lorenzo_Polverino.pdf" download="newname">CV</a></div>
               </div>
             </div>
           </div>
