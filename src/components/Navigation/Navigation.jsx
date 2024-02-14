@@ -10,10 +10,10 @@ const Navigation = ({isScrolled}) => {
   }
   return (
     <nav className={`${styles.nav} ${isScrolled?styles.scrolled:""}`}>
-      <NavigationLInk to="Home" onFocus={ handleFocus} isFocused = {focused}></NavigationLInk>
-      <NavigationLInk to="About" onFocus={handleFocus} isFocused = {focused}></NavigationLInk>
-      <NavigationLInk to="Projects" onFocus={handleFocus} isFocused = {focused}></NavigationLInk>
-      <NavigationLInk to="Contact" onFocus={handleFocus} isFocused = {focused}></NavigationLInk>
+      <NavigationLInk to={"Home"} onFocus={ handleFocus} isFocused = {focused}></NavigationLInk>
+      <NavigationLInk to={"About"} onFocus={handleFocus} isFocused = {focused}></NavigationLInk>
+      <NavigationLInk to={"Projects"} onFocus={handleFocus} isFocused = {focused}></NavigationLInk>
+      <NavigationLInk to={"Contact"} onFocus={handleFocus} isFocused = {focused}></NavigationLInk>
     </nav>
   )
 }

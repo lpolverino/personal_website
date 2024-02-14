@@ -26,3 +26,9 @@
 .selected, .link:hover, .link:focus{
     color:#97DFFC;
 }
+
+@media screen and (max-width:480px){
+    .slider{
+    margin: 80px 8px;
+    }
+}

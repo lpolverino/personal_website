@@ -110,3 +110,15 @@
       transform: rotate(360deg);
     }
   }
+
+@media screen and (max-width:480px){
+  .conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+  }
+  .links{
+    margin: 40px auto;
+  }
+}

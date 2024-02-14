@@ -15,7 +15,11 @@ const FeaturedProject = ({project}) => {
                 <a href={project.url} className={styles.url}>Visit Site</a>
             </div>
         </div>
-        <img src={project.img} alt={project.alt} />
+        <div className={styles.project_img}>
+          <a href={project.url}>
+            <img src={project.img} alt={project.alt} />
+          </a>
+        </div>
     </div>
   )
 }

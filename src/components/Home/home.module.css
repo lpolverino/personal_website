@@ -23,3 +23,11 @@
         transform: translateY(15px);
     }
 }
+
+@media screen and (max-width:480px){
+    .home{
+        justify-content: center;
+        align-items: center;
+    }
+
+}

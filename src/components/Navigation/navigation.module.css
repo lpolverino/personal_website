@@ -1,5 +1,5 @@
 .nav{
-    display:  flex;
+    display: flex;
     gap: 10px;
     align-self: flex-end;
     justify-content: space-around;
