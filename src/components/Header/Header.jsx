@@ -19,7 +19,7 @@ const Header = () => {
   const [windowWidth, setWindowWidth] = useState(getWindowWidth())
 
   const handleScroll = () =>{
-    if(window.scrollY > 30){
+    if(window.scrollY > 100){
       setIsScrolled(true);
     } else{
       setIsScrolled(false);
