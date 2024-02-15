@@ -21,5 +21,8 @@
     .header{
         grid-template-columns: 200px 1fr;
     }
+    .scrolled{
+        padding: 0;
+    }
     
 }

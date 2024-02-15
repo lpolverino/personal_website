@@ -1,14 +1,17 @@
-.nav {
+
+.hamburger{
   justify-self: end;
-  align-self: flex-end;
+  align-self: center;
+  margin-left: auto;
+}
+
+
+.nav {
   width: 100%;
-  height: 60px;
+  height: 56px;
   display: flex;
   justify-content: flex-start;
-  padding: 1em;
-  position: fixed;
-  top: 4px;
-  left: 380px;
+  margin-left: auto;
 }
 
 .burgerMenu{
@@ -18,6 +21,7 @@
   align-items: flex-start;
   justify-content: space-between;
   cursor: pointer;
+  padding: 1em;
 }
 
 .burgerBar{
@@ -35,6 +39,7 @@
   background-color: rgba(10, 10, 10);
   position: absolute;
   top: 0;
+  right: 0;
   z-index: -1;
   opacity: 1;
 }
@@ -64,7 +69,7 @@
 
 
 .burgerBar.clicked:nth-child(1){
-  transform:  rotate(45deg) translate(0.75em, 1.25em);
+  transform:  rotate(45deg) translate(0.1em, 0.75em);
   transition: ease-out 0.5s;
 }
 
@@ -74,7 +79,7 @@
 }
 
 .burgerBar.clicked:nth-child(3){
-  transform:  rotate(135deg) translate(-0.5em, 1em);
+  transform:  rotate(135deg) translate(-0.1em, 1em);
   transition: ease-out 0.5s;
 }
 

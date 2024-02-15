@@ -24,3 +24,8 @@
         opacity: 0;
     }
 }
+@media screen and (max-width:480px){
+    .logo_title{
+        padding-left: 10px;
+    }
+}
