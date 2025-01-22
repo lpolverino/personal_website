@@ -20,7 +20,7 @@ const projectData = {
       id:2,
       name:"Shopping Cart",
       tags:["Frontend"],
-      url:"www.google.com.ar",
+      url:"https://spectacular-dusk-a3ce90.netlify.app/",
       source:"https://github.com/lpolverino/shoping-cart",
       img:"https://d33wubrfki0l68.cloudfront.net/658df6c373b2163509441cd3/screenshot_2023-12-28-22-29-42-0000.webp"
     },
