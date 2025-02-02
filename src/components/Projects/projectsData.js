@@ -4,7 +4,7 @@ const projectData = {
     tags:["Frontend", "Backend", "FullStack"],
     description:"A photo tapping game to play Where is Waldo in you Browser. Developed with React JS for the Frontend and ExpressJs in the BackEnd Using MongoDB for storage",
     img:"https://d33wubrfki0l68.cloudfront.net/65b91f40a6e9350008895b96/screenshot_2024-01-30-16-09-56-0000.webp",
-    url:"https://bucolic-faloodeh-925905.netlify.app",
+    url:"https://bucolic-faloodeh-925905.netlify.app/",
     source:"https://github.com/lpolverino/Waldo-phototapping-app",
   },
   projects:[
